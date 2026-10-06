@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How AquaFlow Manager by DevAxis handles local business records, optional Google Drive backups, account permissions and backup retention.">
+  <title>Privacy Policy | AquaFlow Manager</title>
+  <link rel="icon" type="image/png" href="images/aquaflow-logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="wrap header-inner"><a class="brand" href="./" aria-label="AquaFlow Manager home"><img src="images/aquaflow-logo.png" alt="" width="48" height="48"><span><strong>AquaFlow Manager</strong><small>Developed by DevAxis (Pvt.) Ltd.</small></span></a><nav aria-label="Main navigation"><a href="./">Overview</a><a href="privacy.html" aria-current="page">Privacy Policy</a><a href="terms.html">Terms</a><a href="./#support">Support</a></nav></div></header>
+  <main id="main">
+    <div class="page-title"><div class="wrap"><p class="eyebrow">Your information</p><h1>Privacy Policy</h1><p>AquaFlow Manager · DevAxis (Pvt.) Ltd. · Effective 6 October 2026</p></div></div>
+    <article class="wrap document">
+      <div class="note"><p>AquaFlow Manager stores business records on your computer. Connecting Google Drive is optional and enables backup files to be stored in the Google account you authorize.</p></div>
+      <nav class="contents" aria-label="Policy sections"><a href="#local-data">Local records</a><a href="#google-drive">Google Drive</a><a href="#security">Storage &amp; security</a><a href="#control">Your controls</a><a href="#contact">Contact</a></nav>
+      <h2 id="scope">1. Who this policy covers</h2>
+      <p>This policy describes information handling by the AquaFlow Manager Windows desktop application developed by DevAxis (Pvt.) Ltd., and this public product-information website.</p>
+      <h2 id="local-data">2. Business records stored locally</h2>
+      <p>The application stores the information you enter or generate, such as product names and pictures, categories, prices, branch details, stock movements, sales, customer details, invoices, estimates and application settings. These records are used to provide the inventory, sales, document and reporting features.</p>
+      <p>Records and local backups are saved on your Windows computer. A full database backup can include customer contact information and all other saved business records. You control where copies of these files are kept and with whom they are shared.</p>
+      <h2 id="google-drive">3. Information accessed through Google</h2>
+      <p>If you choose Connect Google Drive, Google's authorization page asks you to permit the application to use the <code>https://www.googleapis.com/auth/drive.file</code> scope. This limited permission covers files created by the app or made available to it through your authorization.</p>
+      <p>The integration uses:</p>
+      <ul>
+        <li>Your connected Google account email address, so the application can display which account is connected.</li>
+        <li>Storage-quota information, so the application can display account storage usage and determine whether space is available for an upload.</li>
+        <li>Backup file contents when uploading or downloading a database snapshot, and file metadata such as names, IDs, sizes, checksums, timestamps and application markers to identify and verify backups.</li>
+        <li>Google access and refresh tokens to perform the backup operations you authorize and renew the connection when permitted by Google.</li>
+      </ul>
+      <p>Uploads are placed in the connected account's Pak Water Filters Backups folder. File checksums and sizes are used to confirm completed transfers. The application can reuse an identical backup instead of uploading another copy.</p>
+      <p>The integration does not request access to Gmail messages or Google Photos. A storage-usage display may include space shared with Gmail and Photos; this display uses account-quota information.</p>
+      <h2 id="purpose">4. How Google information is used and shared</h2>
+      <p>Google information is used to connect the selected account, upload and verify backups, find and download compatible backups, display storage usage and manage older app backups when you enable cleanup.</p>
+      <p>Backup transfers are made between your computer and Google Drive. This integration does not send business backups or Google login tokens to a DevAxis backup server. Google processes the information transmitted to its services under its <a href="https://policies.google.com/privacy">Privacy Policy</a>.</p>
+      <p>DevAxis does not sell Google user data, use it for advertising, or use it to train AI models. The integration does not provide DevAxis with automatic access to the contents of your backups. If you choose to share a file or screenshot for support, share only what is necessary; it will be used to address your request.</p>
+      <p>AquaFlow Manager's use and transfer of information received from Google APIs complies with the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+      <h2 id="security">5. Storage and security</h2>
+      <p>The application does not collect or store your Google password. Login takes place through Google's browser-based authorization flow. Google tokens are stored locally using Windows Data Protection API protection associated with the signed-in Windows user.</p>
+      <p>Business databases and backup files are standard SQLite files. They are not automatically password-encrypted by AquaFlow. Keep your computer and backup locations secure and manage the sharing permissions of your Drive files.</p>
+      <p>Local connection state can include the connected email, folder and backup file IDs, storage usage, pending-upload details, timestamps, checksums and an installation identifier used to distinguish this installation's backups.</p>
+      <h2 id="retention">6. Backup retention and pending uploads</h2>
+      <p>Local records and backup files remain until you remove them. Drive backups remain in your account until you remove them or enable the optional older-backup cleanup feature.</p>
+      <p>Cleanup is off by default. When enabled, it runs after a new upload has been verified. It preserves the latest two completed snapshots and selects up to seven daily and four weekly representative copies. Those groups may overlap. It targets about 1 GB for retained copies, while protecting the latest two; large protected files can exceed this target.</p>
+      <p>Cleanup permanently removes eligible older backups marked for the current installation. It preserves local backups, unrelated Drive files and backups belonging to other installations.</p>
+      <p>If an upload cannot finish, the local backup remains and the latest pending request is retained locally. While the application is open and connected, it can retry the request. When saved records have changed before a retry, the application can create a fresh snapshot containing the latest saved data.</p>
+      <h2 id="control">7. Your choices and deletion</h2>
+      <ul>
+        <li>Use the application and local backup features without connecting Google Drive.</li>
+        <li>Use Disconnect in Settings to remove this installation's saved Google login and disable its cloud connection. Existing backup files remain in Drive.</li>
+        <li>Revoke AquaFlow access through your <a href="https://myaccount.google.com/connections">Google Account connections</a>.</li>
+        <li>Delete cloud copies in Google Drive and manage local copies in AquaFlow's backup list or your local backup folder.</li>
+        <li>Enable or disable automatic older-cloud-backup cleanup in Settings.</li>
+      </ul>
+      <p>Disconnecting or revoking permission does not by itself delete local business records or existing cloud backups. Reinstalling software also does not guarantee deletion of retained local data. Contact support if you need help locating files.</p>
+      <h2 id="website">8. This website</h2>
+      <p>This informational website has no account login, payment form, advertising scripts or developer-installed analytics. When hosted on GitHub Pages, GitHub processes connection information, including visitor IP addresses, for hosting and security as described in its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Privacy Statement</a>.</p>
+      <h2 id="changes">9. Policy updates</h2>
+      <p>Changes to the application's information handling will be reflected on this page with an updated effective date. Review this policy when using a new release or reconnecting an account.</p>
+      <h2 id="contact">10. Contact DevAxis</h2>
+      <p>For privacy questions, file-location assistance or application support:</p>
+      <ul><li>Muhammad Husnain: <a href="tel:+923000620675">0300-0620675</a></li><li>Muhammad Zohaib: <a href="tel:+923014184877">0301-4184877</a></li></ul>
+      <p>Developer: DevAxis (Pvt.) Ltd.</p>
+    </article>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><p>© 2026 DevAxis (Pvt.) Ltd.</p><div class="footer-links"><a href="./">AquaFlow Manager</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></div></div></footer>
+</body>
+</html>
