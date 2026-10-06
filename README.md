@@ -18,10 +18,11 @@ backups, OAuth configuration and Google tokens are not website assets.
 
 ## GitHub Pages
 
-Intended GitHub owner: `muhammadhusnain0925-beep`, explicitly selected by
-the user. The proposed user-site repository is
-`muhammadhusnain0925-beep.github.io`. Confirm the connected GitHub account
-matches this owner before creating or changing a repository.
+GitHub owner: `muhammadhusnain0925-beep`, explicitly selected by the user.
+Repository: https://github.com/muhammadhusnain0925-beep/muhammadhusnain0925-beep.github.io
+The public site was published on 6 October 2026 from `main` and `/(root)`.
+GitHub reported a successful deployment, and the homepage, Privacy Policy,
+Terms and supplied logo were visible on the public site.
 
 1. With the intended account, create a public repository named
    `muhammadhusnain0925-beep.github.io`, unless that user site already exists.
@@ -30,10 +31,10 @@ matches this owner before creating or changing a repository.
 3. Open Settings > Pages > Build and deployment.
 4. Choose Deploy from a branch, the default branch and `/(root)`, then Save.
 5. Confirm GitHub's reported deployment URL and the published pages. The
-   prospective URL is `https://muhammadhusnain0925-beep.github.io/`.
+   published URL is `https://muhammadhusnain0925-beep.github.io/`.
 
-Repository creation, upload and publication have not yet happened merely
-because these local files exist.
+Google Search Console ownership and OAuth brand verification are separate
+steps and have not yet been completed by this website deployment.
 
 ## Google Search Console
 
@@ -54,7 +55,7 @@ not confirm OAuth brand verification.
   dropdown; keep it consistent with the actual project account.
 - Developer contacts: the monitored developer email.
 - Logo: the supplied AquaFlow PNG.
-- Homepage: `https://muhammadhusnain0925-beep.github.io/`, after publication.
+- Homepage: `https://muhammadhusnain0925-beep.github.io/`.
 - Privacy: `https://muhammadhusnain0925-beep.github.io/privacy.html`.
 - Terms: `https://muhammadhusnain0925-beep.github.io/terms.html`.
 - Authorized domain: `muhammadhusnain0925-beep.github.io`, without a scheme
@@ -66,11 +67,12 @@ publishing status to In Production when the console requirements are met.
 Reconnect Google Drive in the desktop application after production publishing.
 
 Before client delivery, make the published Privacy Policy accessible from
-inside the desktop application as required by Google's policy. The final
-site address must be known before adding that link.
+inside the desktop application as required by Google's policy. Use the
+published Privacy Policy address above.
 
 ## Preparation status
 
 Content was prepared from the existing Google Drive integration source on
-6 October 2026. No website or app workflow tests have been run. A new EXE
-has not been built as part of this website task.
+6 October 2026. Publication was checked in GitHub Pages and the public
+browser pages. No automated tests or desktop app workflow tests have been
+run. A new EXE has not been built as part of this website task.

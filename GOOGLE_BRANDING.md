@@ -1,15 +1,16 @@
-# Google branding: values after the website is published
+# Google branding: published website values
 
 ## Current status
 
-The local site files are ready. Their preparation does not mean that a GitHub
-repository has been created, Pages deployment has completed, or Google has
-verified the website. Confirm those steps before using these URLs in a
-verification request.
+The website was published on 6 October 2026. GitHub Pages reported it live,
+and the public homepage, Privacy Policy, Terms and logo were visible.
+Google Search Console ownership and Google OAuth branding verification
+have not yet been completed by this deployment.
 
-Intended account: https://github.com/muhammadhusnain0925-beep
+Account: https://github.com/muhammadhusnain0925-beep
+Repository: https://github.com/muhammadhusnain0925-beep/muhammadhusnain0925-beep.github.io
 
-## Exact proposed values
+## Exact values
 
 | Field | Value |
 | --- | --- |
